@@ -97,11 +97,39 @@
 /* /Secondary-nav */
 /* Aside-bottom */
 .aside-bottom {
-  height: 80px;
+  height: auto;
   margin-top: auto;
-  padding-left: 20px;
-  background-color: grey;
+  padding: 10px 20px;;
+  background-color: black;
   flex-shrink: 0;
+}
+.aside-bottom__install {
+  margin-bottom: 10px;
+}
+.aside-bottom__link {
+  text-decoration: none;
+  color: #686868;
+}
+.aside-bottom__download {
+  margin-right: 10px;
+  height: 20px;
+  vertical-align: middle;
+}
+.aside-bottom__profile {
+  margin-top: 20px;
+}
+.aside-bottom__img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: grey;
+  vertical-align: middle;
+}
+.aside-bottom__name {
+  margin-left: 10px;
+  font-size: 1.25em;
+  color: white;
 }
 /* /Aside-bottom */
 /* /Aside */
