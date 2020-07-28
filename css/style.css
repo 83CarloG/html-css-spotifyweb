@@ -137,45 +137,6 @@
     display: none;
   }
 }
-/* /Aside */
-/* Main-content */
-.main-content {
-  height: 100%;
-  width: calc(100% - 300px);
-  overflow-y: auto;
-  background-color: yellow;
-}
-.upgrade {
-  width: calc(100% - 300px);
-  height: 90px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: black;
-  color: white;
-  z-index: 1;
-}
-.upgrade__bottom {
-  width: 300px;
-  padding: 10px 30px;
-  border: 2px solid white;
-  border-radius: 20px;
-  text-transform: uppercase;
-  text-align: center;
-}
-@media screen and (max-width: 577px ) {
-  .main-content {
-    width: calc(100% - 60px);
-  }
-  .upgrade{
-    width: calc(100% - 60px);
-  }
-}
-
-/* Main-content */
 /* Minimize */
 .minimize {
   display: flex;
@@ -208,6 +169,70 @@
   height: 20px;
 }
 /* /Minimize */
+/* /Aside */
+
+/* Main-content */
+.main-content {
+  height: 100%;
+  width: calc(100% - 300px);
+  overflow-y: auto;
+  background-color: yellow;
+  padding-top: 90px;
+}
+/* Upgrade */
+.upgrade {
+  width: calc(100% - 300px);
+  height: 90px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  z-index: 1;
+}
+.upgrade__bottom {
+  width: 300px;
+  padding: 10px 30px;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media screen and (max-width: 577px ) {
+  .main-content {
+    width: calc(100% - 60px);
+  }
+  .upgrade{
+    width: calc(100% - 60px);
+  }
+}
+/* /Upgrade */
+/* Main-menu */
+.main-menu__list {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.main-menu__item {
+  display: inline-block;
+  flex-basis: 10%; 
+  margin: 5px 15px;
+  text-transform: uppercase;
+}
+.main-menu__link {
+  text-decoration: none;
+  color: #686868;
+}
+/* Main-menu */
+
+
+/* Main-content */
 /* /Main */
 
 /* Footer */
