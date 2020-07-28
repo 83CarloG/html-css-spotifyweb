@@ -6,11 +6,11 @@
 .page-wrapper {
   height: 100vh;
 }
-main {
+.main {
   height: calc(100% - 80px);
   display: flex;
 }
-aside {
+.aside {
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -18,7 +18,15 @@ aside {
   background-color: green;
 }
 .logo {
-  background-color: blue;
+  display: flex;
+  height: 90px;
+  background-color: black;
+  flex-shrink: 0;
+  padding-left: 30px;
+  align-items: center;
+}
+.logo__img {
+  width: 65%;
 }
 .main-nav {
   background-color: orange;
@@ -29,7 +37,7 @@ aside {
   overflow: hidden;
 }
 .play-list {
-  height: calc(100%-80px);
+  height: calc(100% - 22px);
   overflow-y: auto;
 }
 .aside-bottom {
@@ -46,7 +54,7 @@ aside {
 }
 .upgrade {
   width: calc(100% - 300px);
-  height: 80px;
+  height: 90px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -56,7 +64,7 @@ aside {
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
-footer {
+.footer {
   height: 80px;
   background-color: red;
 }
