@@ -239,8 +239,32 @@
   color: #686868;
 }
 /* Main-menu */
-
-
+/* Main music */
+.main-music {
+  display: flex;
+}
+.box-music {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+.box-music--flexs {
+  justify-content: flex-start;
+}
+.box-music__item {
+  margin: 10px 20px;
+  height: 250px;
+  width: 200px;
+  flex-shrink: 0;
+}
+.box-music__img {
+  text-align: center;
+  height: 180px;
+  width:  200px;
+  max-width: 100%;
+}
+/* Main music */
 /* Main-content */
 /* /Main */
 
