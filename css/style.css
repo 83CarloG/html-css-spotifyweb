@@ -392,9 +392,36 @@
 .bar__color:hover {
 
 }
+/* Footer left-right */
 .footer-left, .footer-right {
-  width: 100px;
-  height: 50px;
-  border: 2px solid red;
+  width: 300px;
+  display: flex;
+
+  padding-left: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
+.footer-left__song {
+  display: flex;
+  align-items: center;
+}
+.footer-left__img-container {
+  max-width: 50px;
+  margin-right: 10px;
+}
+.footer-left__img {
+  max-width: 100%;
+}
+.footer-left__title {
+  color: white;
+}
+.footer-left__sub-title {
+  color: #878787;
+  font-size: 0.75em;
+  font-weight: 500;
+}
+.footer-left__icons i {
+  margin-left: 10px;
+}
+
 /* /Footer */
