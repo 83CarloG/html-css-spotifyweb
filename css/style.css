@@ -365,7 +365,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 400px;
+  width: 100%;
 }
 .icon__list {
   margin-bottom: 10px;
@@ -378,7 +378,7 @@
 }
 .song-bar {
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   font-weight: 700;
 }
 .number {
@@ -386,7 +386,7 @@
   font-size: 0.75em;
 }
 .bar {
-  width: 300px;
+  max-width: 300px;
   height: 3px;
 }
 .bar__normal{
